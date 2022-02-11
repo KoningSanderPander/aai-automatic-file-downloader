@@ -1,6 +1,6 @@
 package download
 
-type File struct {
-	Url  string
-	Name string
+type Download struct {
+	Name string `json:"name"`
+	Url  string `json:"url"`
 }
